@@ -1,0 +1,208 @@
+@media (max-width:1250px) {
+main{
+    #hero {
+        padding: 8rem 3rem 6rem !important;
+
+        .image {
+            margin-top: 2rem;
+            width: 400px ;
+            height: 380px ;
+        }
+
+        &>div {
+            padding: 1.5rem 2.8rem;
+        }
+
+        h1 {
+            font-size: 3.2rem;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+            margin: 1rem 0 1.7rem;
+            color: crimson;
+        }
+    
+}
+}
+}
+
+@media (max-width:1050px) {
+    main{
+        #hero {
+            padding: 8rem 2rem 6rem ;
+    
+            .image {
+                margin-top: 2rem;
+                width: 370px ;
+                height: 350px ;
+            }
+    
+            &>div {
+                padding: 1.5rem 2.8rem;
+            }
+    
+            h1 {
+                font-size: 3rem;
+            }
+    
+            h3 {
+                font-size: 1.15rem;
+            }
+        
+    }
+    }
+    
+}
+
+@media (max-width:980px) {
+   main{
+    #hero{
+        flex-direction: column-reverse;
+        justify-content: center !important;
+        gap: 2rem;
+        align-items: flex-start;
+
+        .image{
+            height: 290px;
+            width: 100%;
+            margin-top: 0;
+        }
+    }
+
+    #about{
+        .aboutflex{
+            flex-direction: column;
+
+            .abouttext{
+                max-width: 100%;
+            }
+
+            .aboutimage{
+                width: 100%;
+            }
+        }
+
+    }
+
+    #services {
+        .serviceflex {
+            flex-wrap: wrap;
+        }
+    }
+
+    #gallery{
+        .gallerygrid{
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+    
+    #contact{
+        .contactflex{
+            flex-direction: column-reverse !important;
+            padding: 3rem calc(1rem + 5vw) 3rem;
+
+            .contactimage{
+                width: 100% ;
+            }
+
+            .contactform{
+                width: 100%;
+            }
+        }
+    }
+   }
+
+   footer{
+    &>div{
+        flex-direction: column;
+        align-items: center;
+
+        .abouttext{
+            max-width: 100%;
+            width: 100%;
+            text-align: center;
+        }
+
+        ul{
+            padding: 1rem 0;
+
+            a{
+                text-align: start !important;
+            }
+        }
+    }
+   }
+}
+
+@media (max-width:760px) {
+
+    header{
+        nav{
+            flex-direction: column ;
+            gap: 3rem;
+            align-items: flex-start;
+            padding-top: 2rem;
+            overflow: hidden;
+
+            ul{
+                flex-direction: column;
+            }
+        }
+    }
+
+    main{
+        #hero {
+            padding: 8rem 1.5rem 6rem ;
+    
+            .image {
+                margin-top: 2rem;
+                height: 330px ;
+            }
+    
+            &>div {
+                padding: 1.5rem 2.3rem;
+            }
+    
+            h1 {
+                font-size: 2.4rem;
+            }
+    
+            h3 {
+                font-size: 1.05rem;
+            }
+        }
+
+    }
+}
+
+@media (max-width:560px) {
+    .page{
+        padding: 6rem .85rem 4rem !important;
+    }
+
+    main{
+        #hero {
+            padding: 8rem 0 6rem !important;
+
+            .image{
+                height: 230px;
+            }
+        }
+
+        #gallery{
+            .gallerygrid{
+                grid-template-columns: repeat(1,1fr);
+            }
+        }
+
+        #contact{
+            .contactflex{
+                padding: 3rem .9rem 3rem;
+            }
+        }    
+    }
+
+}

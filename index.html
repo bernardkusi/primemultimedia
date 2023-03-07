@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">Prime</a>
+            <ul>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact</a>
+            </ul>
+
+            <div class="bars">
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="hero">
+
+            <div>
+                <h1>Prime Multimedia</h1>
+                <h3>
+                    The top name for all your media services
+                </h3>
+                <a href="#" class="click">Book Now</a>
+            </div>
+
+            <div class="swiper image">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="./gallery/damir-babacic-UCfTPw4nyr0-unsplash.jpg" alt="sliderimage">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./gallery/damir-babacic-UCfTPw4nyr0-unsplash.jpg" alt="sliderimage">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./gallery/damir-babacic-UCfTPw4nyr0-unsplash.jpg" alt="sliderimage">
+                    </div>
+                    ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </div>
+
+        <div id="about">
+            <div class="page">
+                <h4 class="heading">About Us</h4>
+                <div class="aboutflex">
+                    <p class="abouttext">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nisi pariatur magnam doloribus
+                        temporibus cum ullam eligendi rerum. Necessitatibus atque quaerat quisquam a recusandae.
+                        Molestias doloremque quo voluptate reprehenderit cumque, fugit consectetur nesciunt? Possimus
+                        fugit ea atque temporibus, sunt perspiciatis consectetur eaque nam. <br><br>
+                        <a href="#" class="click">Learn more</a>
+                    </p>
+                    <div class="aboutimage">
+                        <img src="./gallery/aboutimage.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="services">
+            <div class="page">
+                <h4 class="heading">Our Services</h4>
+                <div class="serviceflex">
+                    <div class="service">
+                        <p class="servicename">
+                            Photography
+                        </p>
+                        <div class="serviceimage">
+                            <img src="./gallery/photography.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="service">
+                        <p class="servicename">
+                            Videography
+                        </p>
+                        <div class="serviceimage">
+                            <img src="./gallery/videography.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="service">
+                        <p class="servicename">
+                            Photo Editing
+                        </p>
+                        <div class="serviceimage">
+                            <img src="./gallery/photoediting.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="service">
+                        <p class="servicename">
+                            Graphic Design
+                        </p>
+                        <div class="serviceimage">
+                            <img src="./gallery/graphicdesign.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="gallery">
+            <div class="page">
+                <h4 class="heading">Our Gallery</h4>
+                <div class="gallerygrid">
+                    <div class="galleryimage">
+                        <img src="./gallery/damir-babacic-UCfTPw4nyr0-unsplash.jpg" alt="gallery image">
+                    </div>
+                    <div class="galleryimage">
+                        <img src="./gallery/damir-babacic-UCfTPw4nyr0-unsplash.jpg" alt="gallery image">
+                    </div>
+                    <div class="galleryimage">
+                        <img src="./gallery/damir-babacic-UCfTPw4nyr0-unsplash.jpg" alt="gallery image">
+                    </div>
+                    <div class="galleryimage">
+                        <img src="./gallery/damir-babacic-UCfTPw4nyr0-unsplash.jpg" alt="gallery image">
+                    </div>
+                    <div class="galleryimage">
+                        <img src="./gallery/damir-babacic-UCfTPw4nyr0-unsplash.jpg" alt="gallery image">
+                    </div>
+                    <div class="galleryimage">
+                        <img src="./gallery/damir-babacic-UCfTPw4nyr0-unsplash.jpg" alt="gallery image">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="page">
+                <h4 class="heading">Contact Us</h4>
+                <div class="contactflex">
+                    <div class="contactform">
+                        <p class="label">Send Us A Message</p>
+                        <form action="">
+                            <div class="control">
+                                <input type="text" id="name" name="name">
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="control">
+                                <input type="email" id="email" name="email">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="control">
+                                <textarea name="message" id="message"></textarea>
+                                <label for="name">Message</label>
+                            </div>
+
+                            <button class="click">Send message</button>
+                        </form>
+                    </div>
+
+                    <div class="contactimage">
+                        <img src="./gallery/contactimage.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <p class="abouttext">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, a officiis cupiditate, repudiandae
+                aut modi, sit praesentium enim ea fugiat aspernatur. Numquam fugiat hic dolor quaerat, ab adipisci
+                consequatur voluptatem iusto quam illum laboriosam incidunt quia.
+            </p>
+            <div class="map"></div>
+
+            <ul>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact</a>
+            </ul>
+        </div>
+        <p class="copy">Copyright©Bernard Dwumfour 2023</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            //   scrollbar: {
+            //     el: '.swiper-scrollbar',
+            //   },
+        });
+    </script>
+</body>
+
+</html>
