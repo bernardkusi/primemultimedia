@@ -29,6 +29,8 @@ header nav {
       -ms-flex-align: end;
           align-items: flex-end;
   border-bottom: 1px solid crimson;
+  -webkit-transition: all .4s;
+  transition: all .4s;
 }
 
 header nav .bars {
@@ -37,6 +39,7 @@ header nav .bars {
   right: 2rem;
   width: 24px;
   height: 18px;
+  display: none;
 }
 
 header nav .bars .bar {
@@ -517,6 +520,10 @@ img {
   main #contact .contactflex .contactform {
     width: 100%;
   }
+  .page .heading {
+    font-size: 1.35rem;
+    padding: .5rem 0 .7rem;
+  }
   footer > div {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -551,6 +558,13 @@ img {
             align-items: flex-start;
     padding-top: 2rem;
     overflow: hidden;
+  }
+  header nav.active {
+    height: 350px;
+    padding-bottom: 5rem;
+  }
+  header nav .bars {
+    display: block;
   }
   header nav ul {
     -webkit-box-orient: vertical;
@@ -591,7 +605,7 @@ img {
         grid-template-columns: repeat(1, 1fr);
   }
   main #contact .contactflex {
-    padding: 3rem .9rem 3rem;
+    padding: 3rem 0 3rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

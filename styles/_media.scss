@@ -115,6 +115,13 @@ main{
     }
    }
 
+   .page{
+    .heading{
+        font-size: 1.35rem;
+        padding: .5rem 0 .7rem;
+    }
+   }
+
    footer{
     &>div{
         flex-direction: column;
@@ -146,6 +153,15 @@ main{
             align-items: flex-start;
             padding-top: 2rem;
             overflow: hidden;
+
+            &.active{
+                height:  350px;
+                padding-bottom: 5rem;
+            }
+
+            .bars{
+                display: block;
+            }
 
             ul{
                 flex-direction: column;
@@ -200,7 +216,7 @@ main{
 
         #contact{
             .contactflex{
-                padding: 3rem .9rem 3rem;
+                padding: 3rem 0 3rem;
             }
         }    
     }
